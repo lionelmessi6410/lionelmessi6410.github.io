@@ -57,6 +57,75 @@ span.fullvenue{padding-left:8px}
 /*div.anchor{border-top:50px solid transparent;margin-top:-50px}*/
 div.anchor{border-top:10px solid transparent;margin-top:0px}
 div.recruit{display:none}
+
+.container-box .box{
+  display: flex;
+  align-items: center;
+  padding: 15px 25px 15px 15px;
+}
+.container-box .box i{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+}
+/*.container-box i:hover{
+  color: #000;
+}*/
+.container-box .logo{
+  height: 70px;
+  width: 70px;
+  margin-right: 15px;
+}
+.container-box .logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box .right{
+  display: flex;
+  flex-direction: column;
+}
+.box .right .text-1{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0px 0px 4px 0px;
+}
+.box .right .text-2{
+  font-size: 14px;
+  color: #666;
+  margin: 2px 0 8px 0;
+}
+.box .right a{
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  padding: 3px 10px 3px 10px;
+  background: linear-gradient(to right, #ff0000 72%, #ffffff 28%);
+  border-radius: 5px;
+  border-right: 1px solid #ff0000;
+  border-left: 1px solid #ff0000;
+  border-top: 1px solid #ff0000;
+  border-bottom: 1px solid #ff0000;
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+}
+.box .right span{
+  color: #000 !important;
+  text-align: center;
+  text-decoration: none;
+  white-space:nowrap;
+}
+.box .right a:hover{
+  /*background: linear-gradient(to right, #c91d22 72%, #eeeeee 28%)*/
+  text-decoration: none;
+}
+.container #hide{
+  display: none;
+}
+
 @media only screen and (max-width: 599px) {
     div.ftsubheader{padding-left:10px;padding-right:10px}
     div.heading div.img{padding-right:80px}
