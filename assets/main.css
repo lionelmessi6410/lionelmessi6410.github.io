@@ -24,7 +24,9 @@ span.jw{color:#000000;text-decoration:underline}
 span.author{white-space:nowrap}
 div.outercontainer{text-align:center}
 div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:800px}
-div.header,div.container{min-width:330px}
+/*div.header,div.container{min-width:330px}*/
+div.header{min-width:330px}
+div.container{min-width:800px}
 div.img,div.text{padding-left:10px;padding-right:10px}
 div.header{line-height:50px}
 div.ftheader,div.ftsubheader{display:inline-block;color:#FFF}
