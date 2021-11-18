@@ -26,7 +26,7 @@ div.outercontainer{text-align:center}
 div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:800px}
 /*div.header,div.container{min-width:330px}*/
 div.header{min-width:330px}
-div.container{min-width:800px}
+/*div.container{min-width:800px}*/
 div.img,div.text{padding-left:10px;padding-right:10px}
 div.header{line-height:50px}
 div.ftheader,div.ftsubheader{display:inline-block;color:#FFF}
@@ -132,7 +132,7 @@ div.recruit{display:none}
     div.publication div.img{display:none}
     div.publication div.text{text-align:left}
     div.content,div.publication{padding-top:0px;padding-bottom:10px}
-    body{font-size:130%}
+    body{font-size:100%}
 }
 @media only screen and (min-width: 600px) {
     div.heading div.img{padding-right:calc(35px)}
