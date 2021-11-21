@@ -33,9 +33,9 @@ function showRecruit() {
 
 function myFunction() {
   var x = document.getElementById("home");
-  if (x.className === "topnav") {
+  if (x.className === "container topnav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "container topnav";
   }
 }
