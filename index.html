@@ -72,27 +72,22 @@
 
 <body>
     <div class="outercontainer"> 
-      <script src="./assets/header.js"></script>
+      <!-- <script src="./assets/header.js"></script> -->
       <header>
-        <!-- <div class="container header topnav" id="home">
+        <!-- <div class="container header" id="home">
           <div class="ftheader text"><a href="#home" class="active">Home</a></div>    
           <div class="ftheader text"><a href="#publications">Publications</a></div>
           <div class="ftheader text"><a href="#projects">Side Projects</a></div>
           <div class="ftheader text"><a href="#teaching">Teaching</a></div>
           <div class="ftheader text"><a href="#honors">Honors & Awards</a></div>
-          <div class="ftheader text">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
         </div> -->
         <div class="container topnav" id="home">
-          <a href="#home" class="active">Home</a>
-          <a href="#publications">Publications</a>
-          <a href="#projects">Side Projects</a>
-          <a href="#teaching">Teaching</a>
-          <a href="#honors">Honors & Awards</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="#home" class="active" onclick="clickOther()">Home</a>
+          <a href="#publications" onclick="clickOther()">Publications</a>
+          <a href="#projects" onclick="clickOther()">Side Projects</a>
+          <a href="#teaching" onclick="clickOther()">Teaching</a>
+          <a href="#honors" onclick="clickOther()">Honors & Awards</a>
+          <a href="javascript:void(0);" class="icon" onclick="clickMenu()">
             <i class="fa fa-bars"></i>
           </a>
         </div>

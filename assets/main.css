@@ -55,7 +55,7 @@ span.venue a:link,
 span.venue a:visited{color:seagreen}
 span.fullvenue{padding-left:8px}
 /*div.anchor{border-top:50px solid transparent;margin-top:-50px}*/
-div.anchor{border-top:10px solid transparent;margin-top:0px}
+div.anchor{border-top:25px solid transparent;margin-top:0px}
 div.h-anchor{border-top:20px solid transparent;margin-top:0px}
 div.recruit{display:none}
 
@@ -171,7 +171,9 @@ div.recruit{display:none}
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;

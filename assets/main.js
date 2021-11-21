@@ -31,11 +31,16 @@ function showRecruit() {
   recruit = 1 - recruit;
 }
 
-function myFunction() {
+function clickMenu() {
   var x = document.getElementById("home");
   if (x.className === "container topnav") {
     x.className += " responsive";
   } else {
     x.className = "container topnav";
   }
+}
+
+function clickOther() {
+  var x = document.getElementById("home");
+  x.className = "container topnav";
 }
