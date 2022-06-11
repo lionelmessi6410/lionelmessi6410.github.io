@@ -23,7 +23,7 @@ div.ftsubheader a:hover{text-decoration:underline}
 span.jw{color:#000000;text-decoration:underline}
 span.author{white-space:nowrap}
 div.outercontainer{text-align:center}
-div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:760px}
+div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:810px}
 /*div.header,div.container{min-width:330px}*/
 div.header{min-width:330px}
 /*div.container{min-width:800px}*/
